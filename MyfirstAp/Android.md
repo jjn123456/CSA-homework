@@ -1,0 +1,275 @@
+```xml
+
+first:
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/tv_main"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icon2"
+        android:gravity="bottom"
+        android:text="OO版本1.1" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tv_main"
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:height="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:hint="用户名:"
+        android:background="@drawable/binmianbian"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/iconlock"
+        android:drawablePadding="5dp"
+        android:maxLines="1"/>
+    <EditText
+        android:layout_below="@id/et_1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:height="50dp"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:hint="密码:"
+        android:inputType="textPassword"
+        android:background="@drawable/binmianbian"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/iconren"
+        android:drawablePadding="5dp"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/bt_2"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/et_2"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:background="#000000"
+        android:drawablePadding="00dp"
+        android:text="登录"
+        android:drawableLeft="@drawable/icondianji"/>
+
+    <!-- 注意还剩下个注册的button没有写-->
+    <Button
+        android:id="@+id/bt_3"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/et_2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="#000000"
+        android:text="注册"
+        android:drawableLeft="@drawable/icondianji"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="madebyjjn 2021-3-13\n关于版本"
+            android:gravity="right"
+            android:textColor="#09C7F7"
+            />
+    </LinearLayout>
+</RelativeLayout>
+second:
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text1"
+        android:textSize="32sp"
+        android:textColor="#EF0E0E"
+        />
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="140dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text1"
+        android:textSize="32sp"
+        android:textColor="#EF0E0E"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text1"
+        android:textSize="32sp"
+        android:textColor="#EF0E0E"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text1"
+        android:textSize="32sp"
+        android:textColor="#EF0E0E"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="冲! fightforGate"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textSize="32sp"
+        android:background="#FFAD33"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+</LinearLayout>
+third:
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/tvthrid_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户注册:"
+        android:textColor="#333333"/>
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/tvthrid_2"
+        android:drawableLeft="@drawable/iconsex"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_main"
+        android:id="@+id/etthrid_1"
+        android:layout_width="match_parent"
+        android:height="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:hint="请输入用户名:"
+        android:background="@drawable/binmianbian"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/iconlock"
+        android:drawablePadding="5dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:layout_below="@id/et_1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/etthrid_2"
+        android:layout_width="match_parent"
+        android:height="50dp"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:hint="请输入密码:"
+        android:inputType="textPassword"
+        android:background="@drawable/binmianbian"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/iconren"
+        android:drawablePadding="5dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:layout_below="@id/et_1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/etthrid_3"
+        android:layout_width="match_parent"
+        android:height="50dp"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:hint="再次确认密码:"
+        android:inputType="textPassword"
+        android:background="@drawable/binmianbian"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/iconren"
+        android:drawablePadding="5dp"
+        android:maxLines="1"/>
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/tvthrid_3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="*****以下内容选填*****"
+        android:textColor="#F84519"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_main"
+        android:id="@+id/etthrid_4"
+        android:layout_width="match_parent"
+        android:height="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:hint="电话号:"
+        android:background="@drawable/binmianbian"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/icontele"
+        android:drawablePadding="5dp"
+        android:maxLines="1"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_main"
+        android:id="@+id/etthrid_5"
+        android:layout_width="match_parent"
+        android:height="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:hint="身份证号:"
+        android:background="@drawable/binmianbian"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/iconidcard"
+        android:drawablePadding="5dp"
+        android:maxLines="1"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/bthrid_1"
+        android:text="注册完成"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>
+
+
+还有次要的一些没有复制
+```
+
