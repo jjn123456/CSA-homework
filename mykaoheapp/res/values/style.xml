@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <!--定义首页面当中的四个RadioButton-->
+    <style name="main_rb">
+        <item name="android:layout_width">0dp</item>>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@drawable/main_rbtxt</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="TranslucentTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+<!--全屏显示有透明的状态栏-->
+    <style name="statusBar" parent="AppTheme"></style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">星梦缘</string>
+    <string name="label_star">星座</string>
+    <string name="label_parnter">配对</string>
+    <string name="label_luck">运势</string>
+    <string name="label_me">我的</string>
+    <string name="man">男生 :</string>
+    <string name="woman">女生 :</string>
+    <string name="parnter_info">分别选择您的星座和对方的星座配对即可~</string>
+    <string name="parnter_btn_prize">每日抽奖</string>
+    <string name="parnter_btn_analysis">配对分析</string>
+</resources>
